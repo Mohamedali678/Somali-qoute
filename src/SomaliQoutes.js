@@ -34,9 +34,9 @@ function SomaliQuote(){
         <Header />
         <p className="text-center mt-10 text-4xl"> {xigmad[index]} </p>
 
-        <div className="flex justify-between mx-40 mt-60 sm:justify-center gap-10 mr-40" >
-            <button className="bg-blue-500 p-3 rounded" onClick={previousBtn}>Previous</button>
-            <button className="bg-blue-500 px-6 rounded" onClick={nextBtn}>Next</button>
+        <div className="flex justify-center gap-10 mx-40 mt-60 sm:justify-between" >
+            <button className="bg-blue-500 text-white  p-3 rounded" onClick={previousBtn}>Previous</button>
+            <button className="bg-blue-500 text-white px-6 rounded" onClick={nextBtn}>Next</button>
         </div>
 
 
