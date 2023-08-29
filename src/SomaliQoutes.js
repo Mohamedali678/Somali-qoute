@@ -11,7 +11,11 @@ function SomaliQuote(){
         "3. Ama afeef hore lahow, ama adkeysi dambe lahow ",
         "4. Dheri ninkii ag jooga ayaa lafta kala baxa ",
         "5. Geeljire geela waa wada jiraa, waana kala jiraa ",
-        "6. Abaal nin gala waa la arkay, nin gudase lama arag"
+        "6. Abaal nin gala waa la arkay, nin gudase lama arag",
+        "7. Booraan hadimo ha qodin, ku dhici doontaana mooye",
+        "8. Belaayo intay kaa maqan tahay, qayrkaa bay ku maqan tahay",
+        "9. Col kaa badan iyo biyo kaa badanba way ku hafiyaan",
+        "10. Wadiiqada yari waddada weyn bay kugu riddaa "
     ]
 
     const nextBtn = () => {
@@ -30,7 +34,7 @@ function SomaliQuote(){
         <Header />
         <p className="text-center mt-10 text-4xl"> {xigmad[index]} </p>
 
-        <div className="flex justify-between mx-40 mt-60" >
+        <div className="flex justify-between mx-40 mt-60 sm:justify-center gap-10 mr-40" >
             <button className="bg-blue-500 p-3 rounded" onClick={previousBtn}>Previous</button>
             <button className="bg-blue-500 px-6 rounded" onClick={nextBtn}>Next</button>
         </div>
